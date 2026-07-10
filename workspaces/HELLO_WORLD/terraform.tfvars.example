@@ -1,0 +1,12 @@
+RESOURCE_GROUP_NAME = "RG-HELLOWORLD-EASTUS"
+LOCATION            = "eastus"
+NAME_PREFIX         = "HELLOWORLD"
+ADMIN_USERNAME      = "azureuser"
+SSH_PUBLIC_KEY      = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD...REPLACE_ME"
+VM_SIZE             = "Standard_B1s"
+
+TAGS = {
+  ENVIRONMENT = "DEMO"
+  OWNER       = "TEAM"
+  MANAGED_BY  = "TERRAFORM"
+}
