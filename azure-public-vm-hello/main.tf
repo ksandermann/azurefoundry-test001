@@ -14,7 +14,7 @@ module "public_vm" {
   vm_name                     = "vm-hello-001"
   vm_size                     = "Standard_B1s"
   vm_admin_username           = "azureuser"
-  vm_admin_ssh_public_key     = "ssh-rsa REPLACE_WITH_YOUR_PUBLIC_KEY"
+  vm_admin_ssh_public_key     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDB4example5qjX0xU4F2gW9S9XfHqg8xwH2mQY3Eo4jX8W0f0t4b8R6x2N5z7k1L9p3y8d6m2x1n7v5q4w3e2r1t0y9u8i7o6p5a4s3d2f1g0h9j8k7l6m5n4b3v2c1 azureuser@example"
 
   //optional
   custom_data_b64 = base64encode(file(format("%s%s", path.module, "/configfiles/cloud-init.yaml")))
