@@ -1,0 +1,10 @@
+name_prefix          = "hello-dev"
+location             = "eastus"
+admin_username       = "azureuser"
+admin_ssh_public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC...replace-me"
+vm_size              = "Standard_B1s"
+
+tags = {
+  environment = "dev"
+  project     = "azurefoundry-test001"
+}
