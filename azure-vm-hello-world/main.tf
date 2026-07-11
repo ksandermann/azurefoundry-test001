@@ -1,4 +1,4 @@
-module "azure-vm" {
+module "azure_vm" {
   source = "../modules/azure-linux-vm-public"
 
   //mandatory
